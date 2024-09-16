@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="18dp"
+    >
+
+    <EditText
+        android:id="@+id/editTextUserName"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:hint="@string/username"
+        />
+
+    <EditText
+        android:id="@+id/editTextUserAge"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:hint="@string/age"
+        />
+
+    <EditText
+        android:id="@+id/editTextUserCity"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:hint="@string/city"
+        />
+
+    <EditText
+        android:id="@+id/editTextURL"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:hint="@string/URL"
+        />
+
+    <Button
+        android:id="@+id/buttonSaveData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/saveName"
+        android:padding="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#8BC34A"
+        android:paddingTop="20dp"
+        />
+
+</LinearLayout>

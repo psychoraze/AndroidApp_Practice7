@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AndroidApp_Practice7</string>
+    <string name="username">Enter your name</string>
+    <string name="age">Enter your age</string>
+    <string name="city">Enter your city</string>
+    <string name="saveName">Save name</string>
+    <string name="URL">Enter pic URL</string>
+</resources>
